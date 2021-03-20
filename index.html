@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Import Font Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/fe72aafa81.js" crossorigin="anonymous"></script>
+
+    <title>Pokedex API</title>
+</head>
+<body>
+    <!-- Cabeçalho contendo a logo do site -->
+    <header class="logo-pokemon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo">
+    </header>
+
+    <main class="container">
+        <!-- Mensagem falando sobre o site -->
+        <h3>Aplicação que busca um Pokemon pelo seu nome ou seu id da Pokedex</h3>
+
+        <!-- Barra de pesquisa Pokemon via nome ou id da Pokedex -->
+        <form action="" class="search">
+            <input type="search" class="search-input" placeholder="Digite o nome do Pokemon ou o seu id">
+            <button class="search-button">Procurar</button>
+        </form>  
+
+        <!-- Card de exibição do Pokemon -->
+        <section class="card-pokemon">
+            
+        </section>
+        <!-- Mensagem de erro caso o Pokemon não seja encontrado -->
+        <span class="error">Pokemon não encontrado</span>
+    </main>
+
+    <!-- Agredicimentos do criador do projeto -->
+    <footer class="credits">
+        <span>Feito por Erick</span>
+        <a href="https://github.com/ErickG123/pokemonAPI" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/erick-gabriel-dos-santos-alves-0038b318b/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </footer>
+
+    <!-- Import JS -->
+    <script src="script.js"></script>
+</body>
+</html>
