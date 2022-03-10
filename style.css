@@ -1,5 +1,6 @@
 body {
-	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	/*background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));*/
+    background: linear-gradient(to right, rgb(24, 152, 175), rgb(107, 14, 92));
     font-family: 'Roboto', sans-serif;
 }
 
